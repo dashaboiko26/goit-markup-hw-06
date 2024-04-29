@@ -1026,7 +1026,7 @@ ul {
 
   /* hero */
   .main-section {
-    padding: 112px;
+    padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1153,7 +1153,7 @@ ul {
 
   /* hero */
   .main-section {
-    padding: 188px;
+    padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
