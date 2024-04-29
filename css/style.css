@@ -17,6 +17,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -30,7 +31,7 @@ body {
 
 .container {
   /* width: 1158px; */
-  width: 320px;
+  max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
@@ -60,7 +61,7 @@ span {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  padding: 18px 0;
 }
 
 .header-menu-list {
@@ -154,7 +155,7 @@ span {
   position: fixed;
   top: 0;
   background-color: #fff;
-  padding: 20px;
+  padding: 72px 24px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -239,12 +240,9 @@ span {
 }
 
 .mob-close-btn {
-  /* position: absolute; */
-  display: block;
-  margin-left: auto;
-  margin-bottom: 24px;
-  /* top: 24px;
-  right: 24px; */
+  position: absolute;
+  top: 24px;
+  right: 24px;
   border-radius: 100%;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -358,7 +356,7 @@ ul {
 /* features */
 .features {
   /* padding: 120px 0; */
-  padding: 48px 16px;
+  padding: 96px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -422,7 +420,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 .features-item {
@@ -434,7 +432,7 @@ ul {
 .team-section {
   background-color: #f4f4fd;
   /* padding: 120px 0; */
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 .team-title {
   text-transform: capitalize;
@@ -457,7 +455,8 @@ ul {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
+  justify-content: center;
 }
 
 .team-member {
@@ -519,7 +518,7 @@ ul {
 /* portfolio */
 .portfolio-section {
   /* padding: 120px 0; */
-  padding: 48px 16px;
+  padding: 96px 0;
 }
 
 .portfolio-container {
@@ -627,8 +626,7 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   line-height: 1.5;
-  /* max-width: 264px; */
-  max-width: 288px;
+  max-width: 264px;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -709,12 +707,12 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-label {
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   background-color: transparent;
   font-family: "Roboto", sans-serif;
@@ -1000,7 +998,7 @@ ul {
 /* tablet */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -1091,6 +1089,7 @@ ul {
     text-align: start;
     align-items: baseline;
     gap: 72px 24px;
+    min-width: 553px;
   }
 
   .logo-container {
@@ -1109,6 +1108,9 @@ ul {
   .footer-form {
     display: flex;
     flex-direction: row;
+  }
+  .footer-label {
+    width: 264px;
   }
 
   /* backdrop */
