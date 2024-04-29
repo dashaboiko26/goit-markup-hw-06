@@ -133,12 +133,15 @@ span {
 }
 
 .mob-menu-open-btn {
-  display: flex;
   padding: 0;
   background-color: #fff;
   line-height: 0;
   cursor: pointer;
   border: none;
+  top: 24px;
+  right: 24px;
+  display: block;
+  margin-left: auto;
 }
 
 .mob-menu-open-icon {
@@ -993,6 +996,16 @@ ul {
   }
 
   /* header */
+  .mob-menu-open-btn {
+    display: none;
+  }
+
+  .header-address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .header-menu-list {
     display: flex;
   }
@@ -1066,12 +1079,12 @@ ul {
     flex-wrap: wrap;
     text-align: start;
     align-items: baseline;
-    justify-content: unset;
     max-width: 584px;
     gap: 72px 24px;
   }
 
   .logo-container {
+    display: flex;
     align-items: start;
   }
 
@@ -1100,6 +1113,11 @@ ul {
   /* header */
   .header-menu-list {
     display: flex;
+  }
+
+  .header-address-list {
+    flex-direction: row;
+    gap: 40px;
   }
 
   .header-address-list {
@@ -1178,12 +1196,16 @@ ul {
     max-width: 264px;
   }
   .logo-container {
-    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: baseline;
+    max-width: 584px;
   }
 
   .subscribe-box {
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: start;
   }
   .footer-icon-container {
