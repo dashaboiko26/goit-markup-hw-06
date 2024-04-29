@@ -57,10 +57,6 @@ span {
   color: #2e2f42;
 }
 
-.mob-menu-open-icon {
-  color: #2f2f37;
-}
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -139,17 +135,14 @@ span {
 .mob-menu-open-btn {
   display: flex;
   padding: 0;
-  background-color: transparent;
+  background-color: #fff;
   line-height: 0;
   cursor: pointer;
   border: none;
 }
 
-.icon-menu-btn {
-  fill: #2f2f37;
-}
-
 .mob-menu-open-icon {
+  fill: #2f2f37;
 }
 
 .mob-menu {
