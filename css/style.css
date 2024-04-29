@@ -1113,6 +1113,22 @@ ul {
     display: flex;
     flex-direction: row;
   }
+
+  /* backdrop */
+  .modal {
+    width: 408px;
+    height: 584px;
+  }
+
+  .modal-input {
+    width: 360px;
+    height: 40px;
+  }
+
+  .modal-text {
+    width: 360px;
+    height: 120px;
+  }
 }
 
 /* deskstop */
@@ -1222,5 +1238,21 @@ ul {
   .footer-form {
     display: flex;
     flex-direction: row;
+  }
+
+  /* backdrop */
+  .modal {
+    width: 408px;
+    height: 584px;
+  }
+
+  .modal-input {
+    width: 360px;
+    height: 40px;
+  }
+
+  .modal-text {
+    width: 360px;
+    height: 120px;
   }
 }
